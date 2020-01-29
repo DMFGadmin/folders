@@ -5,3 +5,7 @@ output "afrl-bd-folder" {
 output "afrl-sandbox-folder" {
   value = google_folder.afrl-sandbox.id
 }
+
+output "afrl-terraform-example-folder" {
+  value = google_folder.afrl-terraform-example.id
+}
