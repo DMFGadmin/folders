@@ -14,3 +14,9 @@ resource "google_folder" "afrl-testing" {
   display_name = "AFRL-Testing"
   parent       = "organizations/${var.organization_id}"
 }
+
+# Terraform example folder.
+resource "google_folder" "afrl-terraform-example" {
+  display_name = "AFRL-terraform-example"
+  parent       = "organizations/${var.organization_id}"
+}git a
